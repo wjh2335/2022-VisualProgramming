@@ -31,7 +31,7 @@
                 Draw="CanvasControl_Draw" ClearColor="CornflowerBlue" />
         </Grid>
 
-        <Border x:Name="colorPanel" Visibility="Visible"> <!--><-->
+        <Border x:Name="colorPanel" Visibility="Visible">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="60" />
