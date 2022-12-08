@@ -50,4 +50,4 @@ void MainWindow::ListBox_SelectionChanged(IInspectable const& /*sender*/, Select
 
 [![1](http://img.youtube.com/vi/oQnX24UMQAA/0.jpg)](https://youtu.be/oQnX24UMQAA?t=0s)
 
-▲ 이미지 클릭
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ▲ 이미지 클릭
