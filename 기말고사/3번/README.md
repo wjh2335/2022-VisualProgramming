@@ -1,3 +1,5 @@
+#### 조송하
+
 ```
 (T/F)
 WinUI 3에서 Win2D를 활용하여 펜을 제작하려면 "Microsoft.Graphics.Win2D"라는 NuGet Package를 설치하여야 한다.
@@ -11,6 +13,8 @@ WinUI 3에서 Win2D를 활용하여 펜을 제작하려면 "Microsoft.Graphics.W
 펜의 색상을 변경하기 위한 컨트롤은 [#]이다.
 답: ColorPicker
 ```
+
+#### 신영룡
 
 ```
 (T/F)
@@ -27,6 +31,8 @@ Nuget을 통해서 DirectX를 활용할 때, 각각의 프로젝트마다 새로
 myCol = args.[#]();다.
 답: NewColor
 ```
+
+#### 서창환
 
 ```
 (T/F)
@@ -50,6 +56,8 @@ WinUI3의 사용 예시들을 적어 놓은 문서의 이름은?
 답) 이벤트 처리기
 ```
 
+#### 우제현
+
 ```
 (T/F)
 StackPanel의 Orientation 속성을 Horizontal로 지정하면 StackPanel 내부의 기능들이 수직으로 배열된다.
@@ -66,6 +74,8 @@ TextBox에 Hello을 넣기 위해 코드를 완성하시오
 답: Text
 ```
 
+#### 이수용
+
 ```
 (T/F)
 Button의 이름은 v:Name=""를 통해서 정할 수 있다.
@@ -80,6 +90,8 @@ Button의 이름은 v:Name=""를 통해서 정할 수 있다.
 프로그램 실행 시 윈도우 창 크기를 조절하는 함수는 [#]이다.
 답: SetWindowPos()
 ```
+
+#### 김기종
 
 ```
 (T/F)
@@ -99,6 +111,8 @@ xmlns:canvas="using:Microsoft.[ ].[ ].[ ].Xaml"
 답: Graphics.Canvas.UI.
 ```
 
+#### 전성민
+
 ```
 (T/F)
 Nuget은 최신 개발 플랫폼의 필수 도구는 개발자가 유용한 코드를 생성, 공유 및 사용할 수 있는 메커니즘이다.
@@ -115,12 +129,12 @@ xmlns:canvas="using:Microsoft.[#]"
 답: Graphics.Canvas.UI.Xaml
 ```
 
+#### 임지훈
+
 ```
 (T/F)
 std::vector 를 활용하여 x, y 지점을 저장할 수 있다.
 답: T
-
-
 
 (4문1택)
 Point가 Up이 될 때 지금까지 저장된 포인터의 개술르 제목창에 나타내려면
@@ -132,6 +146,8 @@ this->Title(to_hstring([#])); 이다.
 HorizontalAlignment="[#]" 을 사용하면 개체 또는 텍스트가 컨트롤 요소의 왼쪽에 맞춰집니다.
 답: Left
 ```
+
+#### 김현빈
 
 ```
 (T/F)
@@ -149,6 +165,8 @@ fp = [#]("ANU.txt", "[#]");
 답: fopen, r
 ```
 
+#### 김기현
+
 ```
 (T/F)
 Grid를 사용하여 열과 행으로 구성된 레이아웃을 디자인할 수 있다.
@@ -163,6 +181,8 @@ VerticalAlignment에 필드 요소로 부모 레이아웃 슬롯의 가운데를
 슬라이더를 통해 펜 사이즈를 변경하려고 할 때, Slider_ValueChanged 이벤트 처리기 안에 들어갈 코드는 mySize = e.[#]();다.
 답: NewValue
 ```
+
+#### 장지현
 
 ```
 (T/F)
@@ -179,6 +199,8 @@ Grid태그 밖의 컨트롤등의 태그에서는 Grid.Row나 Grid.Column으로 
 답: Horizontal
 ```
 
+#### 조은경
+
 ```
 (T/F)
 WinUI 3는 windows가 탑재된 모든 기기에서 작동이 가능하다.
@@ -194,6 +216,8 @@ vc라는 이름의 텍스트 박스의 텍스트 내용을 "안동대"로 바꾸
 답: Text("안동대")
 ```
 
+#### 백동섭
+
 ```
 (T/F)
 MFC와 WinUI3는 Windows 모든 기기에서 작동한다.
@@ -208,6 +232,8 @@ Draw 이벤트를 통해 마우스가 이동 될 때 선을 그어주는 이벤�
 WinUI3 Gallery는 [#]에서 다운받아 설치가 가능하다.
 답: Microsoft Store
 ```
+
+#### 김선희
 
 ```
 (T/F)
