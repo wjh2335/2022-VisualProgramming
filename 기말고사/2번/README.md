@@ -27,19 +27,19 @@ void MainWindow::ListBox_SelectionChanged(IInspectable const& /*sender*/, Select
 {
 	switch (lb1().SelectedIndex())
 	{
-		case 0:
+	case 0:
 		Control1Output().Fill(SolidColorBrush(Colors::Blue()));
 		break;
 
-		case 1:
+	case 1:
 		Control1Output().Fill(SolidColorBrush(Colors::Green()));
 		break;
 
-		case 2:
+	case 2:
 		Control1Output().Fill(SolidColorBrush(Colors::Red()));
 		break;
 
-		case 3:
+	case 3:
 		Control1Output().Fill(SolidColorBrush(Colors::Yellow()));
 		break;
 	}
