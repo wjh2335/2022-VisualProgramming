@@ -1,6 +1,6 @@
-## WinUI 3 Gallery 한 개 구현
+# WinUI 3 Gallery 한 개 구현
 
-### 1. MainWindow.xaml 코드 중 ListBox 부분
+## 1. MainWindow.xaml 코드 중 ListBox 부분
 
 ```xaml
 <Grid Grid.Row="1" Background="Gainsboro" CornerRadius="8">
@@ -20,7 +20,7 @@
 </Grid>
 ```
 
-### 2. MainWindow.xaml.cpp 코드 중 SelectionChanged 함수
+## 2. MainWindow.xaml.cpp 코드 중 SelectionChanged 함수
 
 ```cpp
 void MainWindow::ListBox_SelectionChanged(IInspectable const& /*sender*/, SelectionChangedEventArgs const& /*e*/)
@@ -46,7 +46,7 @@ void MainWindow::ListBox_SelectionChanged(IInspectable const& /*sender*/, Select
 }
 ```
 
-### 3. 실행결과
+## 3. 실행결과
 
 [![1](http://img.youtube.com/vi/oQnX24UMQAA/0.jpg)](https://youtu.be/oQnX24UMQAA?t=0s)
 
