@@ -252,3 +252,32 @@ Grid에 대한 설명으로 옳지 않은 것은?
 [#] 이벤트는 포인터 디바이스가 이 요소 내에서 Press 동작을 시작할 때 발생하고, [#] 이벤트는 이전에 Press 동작을 시작한 포인터 디바이스가 해제될 때 발생됩니다.
 답 : PointerPressed, PointerReleased
 ```
+
+#### 유채린
+
+```
+(T/F)
+비쥬얼 스튜디오의 깃리포지토리만들기에서 내가 작성한 코드를 깃허브에 올릴 수 있다.
+답: T
+
+(4문 1택)
+펜 만들기에서 이동이 될 때 선을 그어주는 함수는 무엇인가?
+1. PointerReleased 2. CanvasControl_Draw 3.Pointermoved 4.PointerMoved
+답: 4
+
+(칸 메우기)
+다음 빈칸에 버튼 클릭시 화면이 초기화되는 코드를 작성하시오.
+CanvasControl canvas = sender.as<CanvasControl>();
+int n = vx.size();
+for (int i = 1; i < n; i++) {
+if (vx[i] == 0 && vy[i] == 0) {
+i++; continue;
+}
+args.DrawingSession().DrawLine(vx[i - 1], vy[i - 1], vx[i], vy[i], col[i], size[i]);
+args.DrawingSession().FillCircle(vx[i - 1], vy[i - 1], size[i] /2, col[i]);
+args.DrawingSession().FillCircle(vx[i], vy[i], size[i] /2, col[i]);
+}
+[ # ]
+}
+답: canvas.Invalidate();
+```
